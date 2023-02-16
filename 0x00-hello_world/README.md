@@ -1,1 +1,1 @@
-generates the assembly code (Intel syntax) of a C code
+print a new line to the standard error
