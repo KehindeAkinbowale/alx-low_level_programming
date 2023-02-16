@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-* main - prints the sizeof various data types in C using the sizeof operators
+* main - prints the sizeof various data types in C using the sizeof C-operators
 * Return: 0 (Success)
 */
 int main(void)
