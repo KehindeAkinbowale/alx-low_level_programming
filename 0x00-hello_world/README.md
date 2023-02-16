@@ -1,1 +1,1 @@
-Printing line of text in C
+generates the assembly code (Intel syntax) of a C code
