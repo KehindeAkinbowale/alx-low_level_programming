@@ -14,11 +14,11 @@ while (low <= 'z')
 putchar(low);
 low++;
 }
-putchar('\n');
 while (upp <= 'Z')
 {
 putchar(upp);
 upp++;
 }
+putchar('\n');
 return (0);
 }
