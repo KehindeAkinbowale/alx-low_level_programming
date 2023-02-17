@@ -1,1 +1,1 @@
-Prints all alphabets in lowercase
+Last digit
