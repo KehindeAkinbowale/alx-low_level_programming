@@ -1,1 +1,1 @@
-Last digit
+Lower and uppercase
