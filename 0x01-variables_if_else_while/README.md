@@ -1,1 +1,1 @@
-Printing base 10 numbers
+Putchar function in printing base 10
