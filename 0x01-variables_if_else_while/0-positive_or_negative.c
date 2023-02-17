@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/* more headers goes there */
+/* betty style doc for function main goes there */
 /**
 * main - using if statements to print numbers from the RAND function
 * Return: 0 (Success)
