@@ -3,7 +3,7 @@
 * main - Prints all the alphabet in lowercase using the while loop
 * Return: 0(Success)
 */
-int main()
+int main(void)
 {
 char c;
 c = 'a';
@@ -13,5 +13,5 @@ putchar(c);
 c++;
 }
 putchar('\n');
-return 0;
+return (0);
 }
