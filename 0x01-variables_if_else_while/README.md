@@ -1,1 +1,1 @@
-Combinations of two digits
+Combination of three digits
