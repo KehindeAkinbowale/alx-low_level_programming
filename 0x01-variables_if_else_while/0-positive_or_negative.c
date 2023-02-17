@@ -18,7 +18,7 @@ printf("%d is positive\n", n);
 }
 else if (n == 0)
 {
-printf("%d is zero\n");
+printf("%d is zero\n", n);
 }
 else if (n < 0)
 {
@@ -26,7 +26,7 @@ printf("%d is negative\n", n);
 }
 else
 {
-printf("n is an invalid number");
+printf("invalid number");
 }
 return (0);
 }
