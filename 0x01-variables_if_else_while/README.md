@@ -1,1 +1,1 @@
-Putchar function in printing base 10
+lowercase alphbet in reverse
