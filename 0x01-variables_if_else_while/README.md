@@ -1,1 +1,1 @@
-lowercase alphbet in reverse
+Hexadecimal numbers
