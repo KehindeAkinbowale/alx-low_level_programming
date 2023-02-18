@@ -1,1 +1,1 @@
-Combination of three digits
+prints all possible combinations of two two-digit numbers
