@@ -5,16 +5,32 @@
 */
 void times_table(void)
 {
-int num = 9;
-int result;
-int i;
-int j;
-for (i = 0; i < 1; i++)
+int x, y, z, u, d;
+for (x = 0; x <= 0; x++)
 {
-for (j = 0; j < 12; j++)
+for (y = 0; y <= 0; y++)
 {
-result =  num * j;
-_putchar(result);
+z = x * y;
+if (z > 9)
+{
+u = z % 10;
+d = (z - u) / 10;
+_putchar(44);
+_putchar(32);
+_putchar(d + '0');
+_putchar(u + 'u');
 }
+else
+{
+if (y != 0)
+{
+_putchar(44);
+_putchar(32);
+_putchar(32);
+}
+_putchar(z + '0');
+}
+}
+_putchar('\n');
 }
 }
