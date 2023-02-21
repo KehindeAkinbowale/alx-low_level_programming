@@ -1,11 +1,10 @@
 #include "main.h"
 /**
-* main - print_alphabet function is executed in the main function
-* Return: 0 (Success)
+* main - check the code
+* Return: Always 0.
 */
 int main(void)
 {
-print_alphabet(void);
-putchar('\n');
+print_alphabet();
 return (0);
 }
