@@ -1,6 +1,7 @@
 #include"main.h"
 /**
-* int print_sign - prints the sign of a number
+* int print_sign - prints the sign of a character n
+* @n: character to be printed
 * Return: 0 (Success)
 */
 int print_sign(int n)
