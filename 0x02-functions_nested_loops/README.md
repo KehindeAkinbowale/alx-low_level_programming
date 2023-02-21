@@ -1,1 +1,1 @@
-Print putchar followed by new line
+prints the alphabet, in lowercase, followed by a new line
