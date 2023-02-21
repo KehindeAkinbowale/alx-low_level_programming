@@ -1,1 +1,1 @@
-adds two integers and returns the result
+prints every minute of the day of Jack Bauer
