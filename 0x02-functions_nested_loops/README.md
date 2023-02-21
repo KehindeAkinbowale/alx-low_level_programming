@@ -1,1 +1,1 @@
-checks for alphabetic character
+function that checks for alphabetic character
