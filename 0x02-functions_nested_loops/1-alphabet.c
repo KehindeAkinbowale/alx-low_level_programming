@@ -18,7 +18,7 @@ ch++;
 */
 int main(void)
 {
-alph(void);
+print_alphabet(void);
 putchar('\n');
 return (0);
 }
