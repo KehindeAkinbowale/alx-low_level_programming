@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
-* alph- a function that prints the alphabet in lowercase
+* print_alphabet- a function that prints the alphabet in lowercase
 * Return: 0(Success)
 */
-void alph(void)
+void print_alphabet(void)
 {
 char ch = 'a';
 while (ch <= 'z')
