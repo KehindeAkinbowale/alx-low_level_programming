@@ -1,1 +1,1 @@
-prints the last digit of a number
+prints the 9 times table, starting with 0
