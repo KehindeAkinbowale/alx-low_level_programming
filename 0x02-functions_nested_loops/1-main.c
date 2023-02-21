@@ -5,7 +5,6 @@
 */
 int main(void)
 {
-char ch = 'a';
 print_alphabet(void);
 putchar('\n');
 return (0);
