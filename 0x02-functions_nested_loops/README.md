@@ -1,1 +1,1 @@
-prints the n times table
+Multiples of natural numbers
