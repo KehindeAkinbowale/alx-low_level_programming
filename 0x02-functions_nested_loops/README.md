@@ -1,1 +1,1 @@
-Each new term in the Fibonacci sequence
+prints the first 98 Fibonacci numbers
