@@ -1,1 +1,1 @@
-Multiples of natural numbers
+Each new term in the Fibonacci sequence
