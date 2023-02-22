@@ -1,1 +1,1 @@
-prints every minute of the day of Jack Bauer
+prints all natural numbers from n to 98
