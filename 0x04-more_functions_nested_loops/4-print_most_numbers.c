@@ -17,6 +17,6 @@ if (i == 4)
 {
 continue;
 }
-_putchar(i);
+_putchar(i + '0');
 }
 }
