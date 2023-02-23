@@ -1,1 +1,1 @@
-digit check
+function that multiplies two integers
