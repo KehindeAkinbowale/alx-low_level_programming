@@ -2,6 +2,7 @@
 #include<stdio.h>
 /**
 * main - Prints a Fizz Buzz program
+* Description - Prints a Fizz Buzz program
 * Return: Always 0(Success)
 */
 int main(void)
