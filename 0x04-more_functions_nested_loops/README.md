@@ -1,1 +1,1 @@
-draws a diagonal line on the terminal
+function that prints a square
