@@ -1,1 +1,1 @@
-function that prints a square
+Fizz-Buzz
