@@ -1,1 +1,1 @@
-Copy string character
+Converts string into integers
