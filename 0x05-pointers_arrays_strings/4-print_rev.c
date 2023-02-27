@@ -11,11 +11,10 @@ int strlen;
 int j;
 while (*s != '\0')
 {
-s++;
 strlen++;
 }
 i = strlen - 1;
-for (j = strlen; j < i; j--)
+for (j = i; j > 0; j--)
 {
 _putchar(*s);
 s--;
