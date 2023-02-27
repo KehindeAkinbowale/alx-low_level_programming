@@ -11,6 +11,7 @@ int strlen;
 int j;
 while (*s != '\0')
 {
+s++;
 strlen++;
 }
 i = strlen - 1;
