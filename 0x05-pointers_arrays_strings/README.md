@@ -1,1 +1,1 @@
-Return string lenght function
+Prints a string followed by a new line

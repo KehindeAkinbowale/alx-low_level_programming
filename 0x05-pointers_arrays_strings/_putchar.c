@@ -5,7 +5,7 @@
 * Return: 1 (Success)
 * On error, -1 is returned and error is set appropriately
 */
-int _putchar(int *c)
+int _putchar(int c)
 {
-return (write(1,*c,1));
+return (write(1,&c,1));
 }
