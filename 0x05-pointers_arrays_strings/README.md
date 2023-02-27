@@ -1,1 +1,1 @@
-Prints no of element in the array
+Copy string character
