@@ -1,1 +1,1 @@
-Prints half of a string
+Prints no of element in the array
