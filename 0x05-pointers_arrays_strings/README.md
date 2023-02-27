@@ -1,1 +1,1 @@
-Prints a string followed by a new line
+function that reverse a string
