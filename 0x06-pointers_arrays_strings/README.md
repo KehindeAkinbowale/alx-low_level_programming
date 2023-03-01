@@ -1,1 +1,1 @@
-Copy a string
+String compare function
