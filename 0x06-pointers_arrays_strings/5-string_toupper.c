@@ -7,12 +7,12 @@
 */
 char *string_toupper(char *str)
 {
-int i;
-char ch;
-while (str[i])
+int index = 0;
+while (str[index])
 {
-ch = str[i];
-_putchar(toupper(ch));
-i++;
+if (str[index] >= 'a' && str[index] <= 'z')
+str[index] -= 32;
+index++;
 }
+return (str);
 }
