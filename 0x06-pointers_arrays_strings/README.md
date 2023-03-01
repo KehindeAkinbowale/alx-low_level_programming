@@ -1,1 +1,1 @@
-concatenates two strings
+concatinates two of the string
