@@ -1,1 +1,1 @@
-Reverse array elements
+lowercase of a string to uppercase
