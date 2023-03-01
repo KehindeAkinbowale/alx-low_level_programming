@@ -1,1 +1,1 @@
-String compare function
+Reverse array elements
