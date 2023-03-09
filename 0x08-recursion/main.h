@@ -10,3 +10,6 @@ int wildcmp(char *s1, char *s2);
 int _putchar(char c);
 int find_sqrt(int num, int root);
 int _findprime(int x);
+char *postfix_match(char *str, char *postfix);
+void iterate_wild(char **wildstr);
+int strlen_no_wilds(char *str);
