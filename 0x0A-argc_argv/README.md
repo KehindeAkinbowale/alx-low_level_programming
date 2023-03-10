@@ -1,1 +1,1 @@
-Command line arguments in C
+Prints the number of arguments
