@@ -6,12 +6,12 @@
 * @argv: a pointer pointing to an array of strings
 * Return: the program name
 */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 if (argc)
 {
 int i;
-for (i = 0; i <argc; i++)
+for (i = 0; i < argc; i++)
 {
 printf("%s\n", argv[i]);
 }
