@@ -11,7 +11,7 @@ char *_strdup(char *str)
 int i;
 char *ptr_str;
 int n;
-n = strlen(str);
+n = strlen(str) + 1;
 ptr_str = (char *) malloc(n * (sizeof(char)));
 if (ptr_str != NULL)
 {
@@ -30,6 +30,6 @@ return ((ptr_str));
 }
 else
 {
-return((NULL));
+return ((NULL));
 }
 }
