@@ -13,18 +13,21 @@ int i;
 char *ptr_str;
 int n;
 n = strlen(str) + 1;
-ptr_str = (char *) malloc(n * (sizeof(char)));
 if (str == NULL)
 {
 return ((NULL));
 }
-else if (ptr_str == NULL)
+ptr_str = (char *) malloc(n * (sizeof(char)));
+if (ptr_str == NULL)
 {
 return ((NULL));
 }
+else
+{
 for (i = 0; i < n; i++)
 {
 ptr_str[i] = str[i];
 }
 return ((ptr_str));
+}
 }
