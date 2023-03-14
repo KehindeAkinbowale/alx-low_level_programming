@@ -27,7 +27,7 @@ else if ((s1) && (s2) == NULL)
 {
 return ((NULL));
 }
-ptr_cat = (char *) malloc (n * (sizeof(char)));
+ptr_cat = (char *) malloc(n * (sizeof(char)));
 if (ptr_cat == NULL)
 {
 return ((NULL));
