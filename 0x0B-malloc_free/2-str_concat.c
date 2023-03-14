@@ -10,32 +10,31 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-char *ptr_cat;
-int len1 = strlen(s1);
-int len2 = strlen(s2);
-int n;
-n = len1 + len2 + 2;
+char *conct;
+int i, ci;
 if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
+i = ci = 0;
+while (s1[i] != '\0')
+i++;
+while (s2[ci] != '\0')
+ci++;
+conct = malloc(sizeof(char) * (i + ci + 1));
+if (conct == NULL)
+return (NULL);
+i = ci = 0;
+while (s1[i] != '\0')
 {
-printf("%s", s2);
+conct[i] = s1[i];
+i++;
 }
-else if (s2 == NULL)
+while (s2[ci] != '\0')
 {
-printf("%s", s1);
+conct[i] = s2[ci];
+i++, ci++;
 }
-else if ((s1) && (s2) == NULL)
-{
-return ((NULL));
-}
-ptr_cat = (char *) malloc(n * (sizeof(char)));
-if (ptr_cat == NULL)
-{
-return ((NULL));
-}
-else
-{
-strcat(ptr_cat, s1);
-strcat(ptr_cat, s2);
-}
-return ((ptr_cat));
+conct[i] = '\0';
+return (conct);
 }
