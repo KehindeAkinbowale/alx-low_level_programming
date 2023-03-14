@@ -9,25 +9,17 @@
 */
 char *_strdup(char *str)
 {
-int i;
-char *ptr_str;
-int n;
-n = strlen(str) + 1;
+char *aaa;
+int i, r = 0;
 if (str == NULL)
-{
-return ((NULL));
-}
-ptr_str = (char *) malloc(n * (sizeof(char)));
-if (ptr_str == NULL)
-{
-return ((NULL));
-}
-else
-{
-for (i = 0; i < n; i++)
-{
-ptr_str[i] = str[i];
-}
-return ((ptr_str));
-}
+return (NULL);
+i = 0;
+while (str[i] != '\0')
+i++;
+aaa = malloc(sizeof(char) * (i + 1));
+if (aaa == NULL)
+return (NULL);
+for (r = 0; str[r]; r++)
+aaa[r] = str[r];
+return (aaa);
 }
