@@ -7,14 +7,9 @@
 */
 void *malloc_checked(unsigned int b)
 {
-int *ptr_malloc;
-ptr_malloc = (int *) malloc(b * (sizeof(int)));
-if (ptr_malloc != NULL)
-{
+void *ptr_malloc;
+ptr_malloc = malloc(b);
+if (ptr_malloc == NULL)
+exit(98);
 return ((ptr_malloc));
-}
-else
-{
-exit((0));
-}
 }
