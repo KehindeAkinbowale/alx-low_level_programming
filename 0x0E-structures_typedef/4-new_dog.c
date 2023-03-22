@@ -57,12 +57,14 @@ ptr_dog->name = (char *)malloc((len1 + 1) * (sizeof(char)));
 if (ptr_dog->name == NULL)
 {
 free(ptr_dog->name);
+free(ptr_dog);
 return (NULL);
 }
 ptr_dog->owner = (char *)malloc((len2 + 1) * (sizeof(char)));
 if (ptr_dog->owner == NULL)
 {
 free(ptr_dog->owner);
+free(ptr_dog);
 return (NULL);
 }
 _strcpy(ptr_dog->name, name);
