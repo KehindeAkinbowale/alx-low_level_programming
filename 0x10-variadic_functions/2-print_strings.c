@@ -5,6 +5,8 @@
 * print_strings - a function that prints strings
 * @separator: string to be printed between the strings
 * @n:the number of strings passed to the function
+* Description: If separator is NULL, it is not printed.
+* If one of the strings if NULL, (nil) is printed instead.
 * Return: string passed as arguments
 */
 void print_strings(const char *separator, const unsigned int n, ...)
