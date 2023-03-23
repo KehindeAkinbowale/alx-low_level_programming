@@ -13,15 +13,14 @@ char *str;
 unsigned int i;
 va_list arglist;
 va_start(arglist, n);
-if (separator == NULL)
-printf("NULL");
+
 for (i = 0; i < n; i++)
 {
 str = va_arg(arglist, char *);
 if (str == NULL)
 printf("nil");
 printf("%s", str);
-if (i != (n - 1))
+if (i != (n - 1) && (separator != NULL))
 printf("%s", separator);
 }
 printf("\n");
