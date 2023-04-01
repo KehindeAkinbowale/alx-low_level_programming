@@ -17,6 +17,8 @@ while (str[k] != '\0')
 {
 k++;
 }
+if (my_node == NULL)
+return(NULL);
 my_node = malloc(sizeof(list_t));
 my_node->str = strdup(str);
 my_node->len = k;
