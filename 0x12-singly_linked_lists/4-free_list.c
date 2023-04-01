@@ -2,14 +2,15 @@
 #include "lists.h"
 
 /**
-* free_list - frees a linked list
-* @head: list_t list to be freed
+* free_list - a function that frees a linked list_t
+* @head: a pointer pointing to the list_t
+* Returns: Nothing
 */
 void free_list(list_t *head)
 {
 list_t *temp;
 
-while (head)
+while (head != NULL)
 {
 temp = head->next;
 free(head->str);
