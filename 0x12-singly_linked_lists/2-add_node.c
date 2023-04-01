@@ -5,8 +5,8 @@
 
 /**
 * add_node - a function that adds a new node at the beginning of a list
-* head - a pointer to another pointer of  node
-* str -  string to be duplicated inide the struct
+* @head: a pointer to another pointer of  node
+* @str: string to be duplicated inide the struct
 * Return: a new address to the new node
 */
 list_t *add_node(list_t **head, const char *str)
