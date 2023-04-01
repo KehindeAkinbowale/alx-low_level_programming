@@ -32,7 +32,7 @@ return (my_node);
 }
 while (temp->next != NULL)
 {
-temp=temp->next;
+temp = temp->next;
 }
 temp->next = my_node;
 return (my_node);
