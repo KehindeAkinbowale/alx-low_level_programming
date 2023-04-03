@@ -3,7 +3,7 @@
 #include<stdio.h>
 /**
 * add_nodeint - a function that adds a new node at the beginning of a list
-* @head - the first pointer node pointing to another node
+* @head: the first pointer node pointing to another node
 * @n: int data present in the listint_t struct
 * Return: the address of the new element or NULL
 */
