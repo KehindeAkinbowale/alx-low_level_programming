@@ -1,5 +1,6 @@
 #include"lists.h"
 #include<stdio.h>
+#include<string.h>
 /**
 * print_listint - a function that prints all the elements in the list
 * @h: a pointer to the list_int single list struct
