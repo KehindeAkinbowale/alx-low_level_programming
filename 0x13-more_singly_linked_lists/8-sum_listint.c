@@ -4,7 +4,7 @@
 /**
 * sum_listint - a function that returns the sum of all data in th list
 * @head: a pointer to the node of the list
-* Returns: sum of all data present in the list or 0 if empty
+* Return: sum of all data present in the list or 0 if empty
 */
 int sum_listint(listint_t *head)
 {
