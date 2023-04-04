@@ -24,9 +24,9 @@ new_node->next = *head;
 *head = new_node;
 return (new_node);
 }
+else
+ptr = ptr->next;
 idx--;
-if (idx > 0)
-{
 while (idx != 0)
 {
 ptr = ptr->next;
@@ -35,8 +35,4 @@ idx--;
 new_node->next = ptr->next;
 ptr->next = new_node;
 return (new_node);
-}
-else
-ptr = ptr->next;
-return (NULL);
 }
