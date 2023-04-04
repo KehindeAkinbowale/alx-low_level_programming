@@ -19,7 +19,7 @@ new_node->n = n;
 new_node->next = NULL;
 ptr = (*head);
 idx--;
-while (idx != 1)
+while (idx != 0)
 {
 ptr = ptr->next;
 idx--;
