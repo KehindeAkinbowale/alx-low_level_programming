@@ -1,6 +1,6 @@
 #include"lists.h"
 #include<stdio.h>
-
+#include<stdlib.h>
 /**
 * print_listint - a function that prints all the data in the list
 * @h: a pointer to the listint_t list
@@ -16,6 +16,5 @@ count++;
 printf("%d\n", h->n);
 h = h->next;
 }
-
 return (count);
 }
