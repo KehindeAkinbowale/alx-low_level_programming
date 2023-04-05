@@ -25,16 +25,13 @@ new_node->next = *head;
 *head = new_node;
 return (new_node);
 }
-
-for (k = 0; ptr && k < idx; k++)
-if (k == idx - 1) 
+for (k = 0; k < (idx - 1); k++)
 {
+if ((ptr == NULL) || (ptr->next == NULL))
+return (NULL);
 ptr = ptr->next;
+}
 new_node->next = ptr->next;
 ptr->next = new_node;
 return (new_node);
-}
-else
-ptr = ptr->next;
-return (NULL);
 }
