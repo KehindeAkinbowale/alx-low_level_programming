@@ -14,8 +14,8 @@ num_node = 0;
 while (h != NULL)
 {
 num_node++;
-printf("%d", h->n);
-printf("\n");
+printf("%d\n", h->n);
+
 h = h->next;
 }
 return (num_node);
