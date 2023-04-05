@@ -3,8 +3,8 @@
 #include<stdio.h>
 /**
 * delete_nodeint_at_index - a function that deletes the node at index
-* head: pointer to the head pointer to listint_t
-* index: position of the node to be deleted
+* @head: pointer to the head pointer to listint_t
+* @index: position of the node to be deleted
 * Return: 1 (Success) otherwise returns -1
 */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
