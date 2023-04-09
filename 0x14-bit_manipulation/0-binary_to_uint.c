@@ -2,12 +2,13 @@
 #include<stdio.h>
 #include<math.h>
 /**
-* int binary_to_uint - a function that converts a binary number to an int
+* binary_to_uint - a function that converts a binary number to an int
 * @b: character string pointer of 0 and 1
+* Description: a function that converts binary to decimal
 * Return: the binary equivalent otherwise returns NULL
-*/ 
+*/
 unsigned int binary_to_uint(const char *b)
-{       
+{
 unsigned int i = 0;
 unsigned int dec = 0;
 if (b == NULL)
