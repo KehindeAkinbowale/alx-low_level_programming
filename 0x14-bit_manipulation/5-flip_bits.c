@@ -8,9 +8,9 @@
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 int i;
+unsigned long int current;
 unsigned long int bit = 0;
 unsigned long int ex_XOR = n ^ m;
-unsigned long int current;
 for (i = 32; i >= 0; i--)
 {
 current = ex_XOR >> i;
