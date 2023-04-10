@@ -12,7 +12,7 @@ int i;
 unsigned long int current;
 unsigned long int ex_XOR = n ^ m, bit = 0;
 
-for (i = 32; i >= 0; i--)
+for (i = 63; i >= 0; i--)
 {
 current = ex_XOR >> i;
 if (current & 1)
