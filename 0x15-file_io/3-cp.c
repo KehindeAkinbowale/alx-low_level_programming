@@ -22,7 +22,7 @@ exit(100);
 * @file_to: file to copy to
 * @argv: array of pointers to function arguments
 * Return: Nothing from a void function
-*/ 
+*/
 void error_file(int file_from, int file_to, char *argv[])
 {
 if (file_from == -1)
@@ -42,11 +42,12 @@ exit(99);
 * @argv: array of pointers to function arguments
 * Return: 0 (Success)
 */
-int file_from, file_to, c;
-ssize_t rnum_chars, w;
-char buffer[1024];
 int main(int argc, char *argv[])
 {
+int file_from;
+int file_to;
+ssize_t rnum_chars, w;
+char buffer[1024];
 if (argc != 3)
 {
 dprintf(STDERR_FILENO, "%s\n", "Usage: cp file_from file_to");
